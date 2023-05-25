@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PutEkb</string>
+    <string name="cv">ПУТЕВОДИТЕЛЬ ПО ЕКАТЕРИНБУРГУ</string>
+
+    <string name="mg">Музеи и галереи</string>
+    <string name="bd">Отели и гостиницы</string>
+    <string name="mo">Кафе и рестораны</string>
+    <string name="bmenu">Назад</string>
+    <string name="maps">КАРТЫ</string>
+    <string name="web">САЙТ</string>
+
+</resources>

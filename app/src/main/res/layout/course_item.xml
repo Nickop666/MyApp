@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardView"
+        android:layout_width="413dp"
+        android:layout_height="717dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="719dp"
+            android:background="@color/begi"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/courseImage"
+                android:layout_width="386dp"
+                android:layout_height="247dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="My bad))" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/maps"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="206dp"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/red"
+
+                    android:text="@string/maps"
+                    android:textColor="@color/ye"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/web"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/red"
+
+                    android:text="@string/web"
+                    android:textColor="@color/ye"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/courseTitle"
+                android:layout_width="388dp"
+                android:layout_height="73dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/courseOsnText"
+                android:layout_width="386dp"
+                android:layout_height="310dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15sp"
+                android:background="@color/begi"
+                android:fontFamily="sans-serif-condensed-medium"
+
+
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
